@@ -26,3 +26,11 @@ function currentLine(line){
     return "The line is currently: " + positions.join(", ");
   }
 }
+
+var totalnumber = 10
+
+function takeANumber(){
+  const person = totalnumber + 1;
+  totalnumber = person;
+  return person;
+}
